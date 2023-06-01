@@ -1,0 +1,61 @@
+/* Example 1 */
+/* body{
+    background-color: darkgray;
+}
+
+ul{
+    color: chocolate;
+}
+
+
+ol {
+    background-color: black;
+}
+
+ol>li{
+    color:lightgreen;
+}
+
+
+.funny-li{
+    background-color: aliceblue;
+    border-style: double;
+    border-color: rgb(255,0,0);
+    border-width: 10px;
+}
+
+#first{
+    background-color: coral;
+    border-color: aqua;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+ul.unordered{
+    background-color: blueviolet;
+}
+
+
+p {
+    color: #E847E8
+} */
+
+
+/*Example 2 */
+/* -- makes variable*/ 
+:root{
+    --main-color: red; 
+    --main-bg-color: yellow;
+    --secondary-color: darkgrey;
+}
+
+
+h1{
+    background-color: var(--secondary-color);
+    color:var(--main-color)
+}
+
+p{
+    background-color: var(--main-bg-color);
+    color: coral;
+}
